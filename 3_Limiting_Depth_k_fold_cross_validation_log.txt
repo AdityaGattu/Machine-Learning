@@ -1,0 +1,105 @@
+INFO:root:
+###################### 3. Limiting Depth - (For 5-fold cross-validation) ###################################
+INFO:root:
+INFO:root: ************** Depth: 1 ************* 
+INFO:root:	Choosing fold 1 as validation set
+INFO:root:		Train set accuracy: 72.83%
+INFO:root:		Valid set accuracy: 72.83%
+INFO:root:	Choosing fold 2 as validation set
+INFO:root:		Train set accuracy: 70.29%
+INFO:root:		Valid set accuracy: 70.29%
+INFO:root:	Choosing fold 3 as validation set
+INFO:root:		Train set accuracy: 73.19%
+INFO:root:		Valid set accuracy: 73.19%
+INFO:root:	Choosing fold 4 as validation set
+INFO:root:		Train set accuracy: 69.2%
+INFO:root:		Valid set accuracy: 69.2%
+INFO:root:	Choosing fold 5 as validation set
+INFO:root:		Train set accuracy: 73.38%
+INFO:root:		Valid set accuracy: 73.38%
+INFO:root:
+INFO:root:	 Average cross validation accuracy: 71.78%
+INFO:root:	 Standard deviation for depth 1 : 0.01703
+INFO:root:
+INFO:root: ************** Depth: 2 ************* 
+INFO:root:	Choosing fold 1 as validation set
+INFO:root:		Train set accuracy: 77.54%
+INFO:root:		Valid set accuracy: 77.54%
+INFO:root:	Choosing fold 2 as validation set
+INFO:root:		Train set accuracy: 76.81%
+INFO:root:		Valid set accuracy: 76.81%
+INFO:root:	Choosing fold 3 as validation set
+INFO:root:		Train set accuracy: 81.52%
+INFO:root:		Valid set accuracy: 81.52%
+INFO:root:	Choosing fold 4 as validation set
+INFO:root:		Train set accuracy: 78.62%
+INFO:root:		Valid set accuracy: 78.62%
+INFO:root:	Choosing fold 5 as validation set
+INFO:root:		Train set accuracy: 78.78%
+INFO:root:		Valid set accuracy: 78.78%
+INFO:root:
+INFO:root:	 Average cross validation accuracy: 78.65%
+INFO:root:	 Standard deviation for depth 2 : 0.01605
+INFO:root:
+INFO:root: ************** Depth: 3 ************* 
+INFO:root:	Choosing fold 1 as validation set
+INFO:root:		Train set accuracy: 84.78%
+INFO:root:		Valid set accuracy: 84.78%
+INFO:root:	Choosing fold 2 as validation set
+INFO:root:		Train set accuracy: 84.78%
+INFO:root:		Valid set accuracy: 84.78%
+INFO:root:	Choosing fold 3 as validation set
+INFO:root:		Train set accuracy: 86.23%
+INFO:root:		Valid set accuracy: 86.23%
+INFO:root:	Choosing fold 4 as validation set
+INFO:root:		Train set accuracy: 84.78%
+INFO:root:		Valid set accuracy: 84.78%
+INFO:root:	Choosing fold 5 as validation set
+INFO:root:		Train set accuracy: 85.25%
+INFO:root:		Valid set accuracy: 85.25%
+INFO:root:
+INFO:root:	 Average cross validation accuracy: 85.17%
+INFO:root:	 Standard deviation for depth 3 : 0.00563
+INFO:root:
+INFO:root: ************** Depth: 4 ************* 
+INFO:root:	Choosing fold 1 as validation set
+INFO:root:		Train set accuracy: 96.01%
+INFO:root:		Valid set accuracy: 96.01%
+INFO:root:	Choosing fold 2 as validation set
+INFO:root:		Train set accuracy: 94.93%
+INFO:root:		Valid set accuracy: 94.93%
+INFO:root:	Choosing fold 3 as validation set
+INFO:root:		Train set accuracy: 96.01%
+INFO:root:		Valid set accuracy: 96.01%
+INFO:root:	Choosing fold 4 as validation set
+INFO:root:		Train set accuracy: 95.29%
+INFO:root:		Valid set accuracy: 95.29%
+INFO:root:	Choosing fold 5 as validation set
+INFO:root:		Train set accuracy: 94.96%
+INFO:root:		Valid set accuracy: 94.96%
+INFO:root:
+INFO:root:	 Average cross validation accuracy: 95.44%
+INFO:root:	 Standard deviation for depth 4 : 0.00484
+INFO:root:
+INFO:root: ************** Depth: 5 ************* 
+INFO:root:	Choosing fold 1 as validation set
+INFO:root:		Train set accuracy: 99.64%
+INFO:root:		Valid set accuracy: 99.64%
+INFO:root:	Choosing fold 2 as validation set
+INFO:root:		Train set accuracy: 99.64%
+INFO:root:		Valid set accuracy: 99.64%
+INFO:root:	Choosing fold 3 as validation set
+INFO:root:		Train set accuracy: 100.0%
+INFO:root:		Valid set accuracy: 100.0%
+INFO:root:	Choosing fold 4 as validation set
+INFO:root:		Train set accuracy: 100.0%
+INFO:root:		Valid set accuracy: 100.0%
+INFO:root:	Choosing fold 5 as validation set
+INFO:root:		Train set accuracy: 100.0%
+INFO:root:		Valid set accuracy: 100.0%
+INFO:root:
+INFO:root:	 Average cross validation accuracy: 99.86%
+INFO:root:	 Standard deviation for depth 5 : 0.00177
+INFO:root:
+INFO:root:	 Depth 5 has the best accuracy of 99.86% and is thus the best choice of depth
+INFO:root:	 Test set accuracy using the best depth : 92.4855%

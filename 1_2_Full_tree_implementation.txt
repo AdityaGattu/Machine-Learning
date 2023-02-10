@@ -1,0 +1,1980 @@
+INFO:root:
+################### # 1 & 2. Baseline and Implementation: Full trees ###################################
+
+INFO:root:
+INFO:root: Most frequent label in train dataset: unacc
+INFO:root: The training Accuracy for classifier which always predicts maxLabel: 70.98%
+INFO:root: The test Accuracy for classifier which always predicts maxLabel: [66.18]%
+INFO:root:Depth: 0
+INFO:root:Feature selected: safety
+INFO:root:Information Gain for parent feature: None
+INFO:root:Entropy for parent feature: None
+INFO:root:Parent feature value: None
+INFO:root:Label: unacc
+INFO:root:	Depth: 1
+INFO:root:	Feature selected: persons
+INFO:root:	Information Gain for parent feature: 0.25557618418966466
+INFO:root:	Entropy for parent feature: 0.9298954998600739
+INFO:root:	Parent feature value: high
+INFO:root:	Label: unacc
+INFO:root:		Depth: 2
+INFO:root:		Feature selected: None
+INFO:root:		Information Gain for parent feature: 0.4770384027298853
+INFO:root:		Entropy for parent feature: 1.1170027164934693
+INFO:root:		Parent feature value: 2
+INFO:root:		Label: unacc
+INFO:root:		Depth: 2
+INFO:root:		Feature selected: buying
+INFO:root:		Information Gain for parent feature: 0.4770384027298853
+INFO:root:		Entropy for parent feature: 1.1170027164934693
+INFO:root:		Parent feature value: 4
+INFO:root:		Label: acc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: maint
+INFO:root:			Information Gain for parent feature: 0.528069802448957
+INFO:root:			Entropy for parent feature: 1.1481688117113822
+INFO:root:			Parent feature value: high
+INFO:root:			Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.782444129406689
+INFO:root:				Entropy for parent feature: 0.0
+INFO:root:				Parent feature value: high
+INFO:root:				Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.782444129406689
+INFO:root:				Entropy for parent feature: 0.0
+INFO:root:				Parent feature value: low
+INFO:root:				Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.782444129406689
+INFO:root:				Entropy for parent feature: 0.0
+INFO:root:				Parent feature value: med
+INFO:root:				Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.782444129406689
+INFO:root:				Entropy for parent feature: 0.0
+INFO:root:				Parent feature value: vhigh
+INFO:root:				Label: unacc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: maint
+INFO:root:			Information Gain for parent feature: 0.528069802448957
+INFO:root:			Entropy for parent feature: 1.1481688117113822
+INFO:root:			Parent feature value: low
+INFO:root:			Label: vgood
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.7745582529512992
+INFO:root:				Entropy for parent feature: 0.795410545059657
+INFO:root:				Parent feature value: high
+INFO:root:				Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.5466316153937778
+INFO:root:					Entropy for parent feature: 0.4444444444444444
+INFO:root:					Parent feature value: big
+INFO:root:					Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.5466316153937778
+INFO:root:					Entropy for parent feature: 0.4444444444444444
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: vgood
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.5466316153937778
+INFO:root:					Entropy for parent feature: 0.4444444444444444
+INFO:root:					Parent feature value: small
+INFO:root:					Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.7745582529512992
+INFO:root:				Entropy for parent feature: 0.795410545059657
+INFO:root:				Parent feature value: low
+INFO:root:				Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.9910760598382222
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: big
+INFO:root:					Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.9910760598382222
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: med
+INFO:root:					Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.9910760598382222
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: small
+INFO:root:					Label: good
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.7745582529512992
+INFO:root:				Entropy for parent feature: 0.795410545059657
+INFO:root:				Parent feature value: med
+INFO:root:				Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6
+INFO:root:					Entropy for parent feature: 0.4
+INFO:root:					Parent feature value: big
+INFO:root:					Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.6
+INFO:root:					Entropy for parent feature: 0.4
+INFO:root:					Parent feature value: med
+INFO:root:					Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: vgood
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6
+INFO:root:					Entropy for parent feature: 0.4
+INFO:root:					Parent feature value: small
+INFO:root:					Label: good
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.7745582529512992
+INFO:root:				Entropy for parent feature: 0.795410545059657
+INFO:root:				Parent feature value: vhigh
+INFO:root:				Label: acc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: maint
+INFO:root:			Information Gain for parent feature: 0.528069802448957
+INFO:root:			Entropy for parent feature: 1.1481688117113822
+INFO:root:			Parent feature value: med
+INFO:root:			Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.8351629846686868
+INFO:root:				Entropy for parent feature: 0.5090773555074493
+INFO:root:				Parent feature value: high
+INFO:root:				Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.8351629846686868
+INFO:root:				Entropy for parent feature: 0.5090773555074493
+INFO:root:				Parent feature value: low
+INFO:root:				Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6303938478405928
+INFO:root:					Entropy for parent feature: 0.36363636363636365
+INFO:root:					Parent feature value: big
+INFO:root:					Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.6303938478405928
+INFO:root:					Entropy for parent feature: 0.36363636363636365
+INFO:root:					Parent feature value: med
+INFO:root:					Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: vgood
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6303938478405928
+INFO:root:					Entropy for parent feature: 0.36363636363636365
+INFO:root:					Parent feature value: small
+INFO:root:					Label: good
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.8351629846686868
+INFO:root:				Entropy for parent feature: 0.5090773555074493
+INFO:root:				Parent feature value: med
+INFO:root:				Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6849774484867257
+INFO:root:					Entropy for parent feature: 0.3060986113514965
+INFO:root:					Parent feature value: big
+INFO:root:					Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.6849774484867257
+INFO:root:					Entropy for parent feature: 0.3060986113514965
+INFO:root:					Parent feature value: med
+INFO:root:					Label: vgood
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: vgood
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6849774484867257
+INFO:root:					Entropy for parent feature: 0.3060986113514965
+INFO:root:					Parent feature value: small
+INFO:root:					Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.8351629846686868
+INFO:root:				Entropy for parent feature: 0.5090773555074493
+INFO:root:				Parent feature value: vhigh
+INFO:root:				Label: acc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: maint
+INFO:root:			Information Gain for parent feature: 0.528069802448957
+INFO:root:			Entropy for parent feature: 1.1481688117113822
+INFO:root:			Parent feature value: vhigh
+INFO:root:			Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.9996437496778561
+INFO:root:				Entropy for parent feature: 0.0
+INFO:root:				Parent feature value: high
+INFO:root:				Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.9996437496778561
+INFO:root:				Entropy for parent feature: 0.0
+INFO:root:				Parent feature value: low
+INFO:root:				Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.9996437496778561
+INFO:root:				Entropy for parent feature: 0.0
+INFO:root:				Parent feature value: med
+INFO:root:				Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.9996437496778561
+INFO:root:				Entropy for parent feature: 0.0
+INFO:root:				Parent feature value: vhigh
+INFO:root:				Label: unacc
+INFO:root:		Depth: 2
+INFO:root:		Feature selected: buying
+INFO:root:		Information Gain for parent feature: 0.4770384027298853
+INFO:root:		Entropy for parent feature: 1.1170027164934693
+INFO:root:		Parent feature value: more
+INFO:root:		Label: acc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: maint
+INFO:root:			Information Gain for parent feature: 0.36344420661441035
+INFO:root:			Entropy for parent feature: 1.3150497046712681
+INFO:root:			Parent feature value: high
+INFO:root:			Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: doors
+INFO:root:				Information Gain for parent feature: 0.658465847426968
+INFO:root:				Entropy for parent feature: 0.24971249987273714
+INFO:root:				Parent feature value: high
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.5916727785823274
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: 2
+INFO:root:					Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.5916727785823274
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: 3
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.5916727785823274
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: 4
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.5916727785823274
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: 5more
+INFO:root:					Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.658465847426968
+INFO:root:				Entropy for parent feature: 0.24971249987273714
+INFO:root:				Parent feature value: low
+INFO:root:				Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.658465847426968
+INFO:root:				Entropy for parent feature: 0.24971249987273714
+INFO:root:				Parent feature value: med
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.2935644431995964
+INFO:root:					Entropy for parent feature: 0.25
+INFO:root:					Parent feature value: big
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.2935644431995964
+INFO:root:					Entropy for parent feature: 0.25
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.2935644431995964
+INFO:root:					Entropy for parent feature: 0.25
+INFO:root:					Parent feature value: small
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.658465847426968
+INFO:root:				Entropy for parent feature: 0.24971249987273714
+INFO:root:				Parent feature value: vhigh
+INFO:root:				Label: unacc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: maint
+INFO:root:			Information Gain for parent feature: 0.36344420661441035
+INFO:root:			Entropy for parent feature: 1.3150497046712681
+INFO:root:			Parent feature value: low
+INFO:root:			Label: vgood
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.7174333522993295
+INFO:root:				Entropy for parent feature: 1.0555265922295431
+INFO:root:				Parent feature value: high
+INFO:root:				Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.9544340029249649
+INFO:root:					Entropy for parent feature: 0.3443609377704336
+INFO:root:					Parent feature value: big
+INFO:root:					Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.9544340029249649
+INFO:root:					Entropy for parent feature: 0.3443609377704336
+INFO:root:					Parent feature value: med
+INFO:root:					Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.9544340029249649
+INFO:root:					Entropy for parent feature: 0.3443609377704336
+INFO:root:					Parent feature value: small
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.7174333522993295
+INFO:root:				Entropy for parent feature: 1.0555265922295431
+INFO:root:				Parent feature value: low
+INFO:root:				Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6954618442383219
+INFO:root:					Entropy for parent feature: 0.6
+INFO:root:					Parent feature value: big
+INFO:root:					Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.6954618442383219
+INFO:root:					Entropy for parent feature: 0.6
+INFO:root:					Parent feature value: med
+INFO:root:					Label: vgood
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: vgood
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: vgood
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.6954618442383219
+INFO:root:					Entropy for parent feature: 0.6
+INFO:root:					Parent feature value: small
+INFO:root:					Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: good
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.7174333522993295
+INFO:root:				Entropy for parent feature: 1.0555265922295431
+INFO:root:				Parent feature value: med
+INFO:root:				Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6960736118322673
+INFO:root:					Entropy for parent feature: 0.5283208335737187
+INFO:root:					Parent feature value: big
+INFO:root:					Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.6960736118322673
+INFO:root:					Entropy for parent feature: 0.5283208335737187
+INFO:root:					Parent feature value: med
+INFO:root:					Label: vgood
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: vgood
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.6960736118322673
+INFO:root:					Entropy for parent feature: 0.5283208335737187
+INFO:root:					Parent feature value: small
+INFO:root:					Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: good
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: doors
+INFO:root:				Information Gain for parent feature: 0.7174333522993295
+INFO:root:				Entropy for parent feature: 1.0555265922295431
+INFO:root:				Parent feature value: vhigh
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.4689955935892812
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: 2
+INFO:root:					Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.4689955935892812
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: 3
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.4689955935892812
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: 4
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.4689955935892812
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: 5more
+INFO:root:					Label: acc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: maint
+INFO:root:			Information Gain for parent feature: 0.36344420661441035
+INFO:root:			Entropy for parent feature: 1.3150497046712681
+INFO:root:			Parent feature value: med
+INFO:root:			Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: doors
+INFO:root:				Information Gain for parent feature: 0.6709198832783078
+INFO:root:				Entropy for parent feature: 0.9158508575940757
+INFO:root:				Parent feature value: high
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: lug_boot
+INFO:root:					Information Gain for parent feature: 0.28103611255342353
+INFO:root:					Entropy for parent feature: 0.2222222222222222
+INFO:root:					Parent feature value: 2
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: med
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: small
+INFO:root:						Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.28103611255342353
+INFO:root:					Entropy for parent feature: 0.2222222222222222
+INFO:root:					Parent feature value: 3
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.28103611255342353
+INFO:root:					Entropy for parent feature: 0.2222222222222222
+INFO:root:					Parent feature value: 4
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.28103611255342353
+INFO:root:					Entropy for parent feature: 0.2222222222222222
+INFO:root:					Parent feature value: 5more
+INFO:root:					Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.6709198832783078
+INFO:root:				Entropy for parent feature: 0.9158508575940757
+INFO:root:				Parent feature value: low
+INFO:root:				Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.7695459925589749
+INFO:root:					Entropy for parent feature: 0.6792696431662097
+INFO:root:					Parent feature value: big
+INFO:root:					Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.7695459925589749
+INFO:root:					Entropy for parent feature: 0.6792696431662097
+INFO:root:					Parent feature value: med
+INFO:root:					Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.7695459925589749
+INFO:root:					Entropy for parent feature: 0.6792696431662097
+INFO:root:					Parent feature value: small
+INFO:root:					Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: good
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.6709198832783078
+INFO:root:				Entropy for parent feature: 0.9158508575940757
+INFO:root:				Parent feature value: med
+INFO:root:				Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.7119415478763748
+INFO:root:					Entropy for parent feature: 0.6490224995673063
+INFO:root:					Parent feature value: big
+INFO:root:					Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.7119415478763748
+INFO:root:					Entropy for parent feature: 0.6490224995673063
+INFO:root:					Parent feature value: med
+INFO:root:					Label: vgood
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: vgood
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: vgood
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: vgood
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.7119415478763748
+INFO:root:					Entropy for parent feature: 0.6490224995673063
+INFO:root:					Parent feature value: small
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: doors
+INFO:root:				Information Gain for parent feature: 0.6709198832783078
+INFO:root:				Entropy for parent feature: 0.9158508575940757
+INFO:root:				Parent feature value: vhigh
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: lug_boot
+INFO:root:					Information Gain for parent feature: 0.1935068433729344
+INFO:root:					Entropy for parent feature: 0.27548875021634683
+INFO:root:					Parent feature value: 2
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: big
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: med
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: small
+INFO:root:						Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.1935068433729344
+INFO:root:					Entropy for parent feature: 0.27548875021634683
+INFO:root:					Parent feature value: 3
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.1935068433729344
+INFO:root:					Entropy for parent feature: 0.27548875021634683
+INFO:root:					Parent feature value: 4
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.1935068433729344
+INFO:root:					Entropy for parent feature: 0.27548875021634683
+INFO:root:					Parent feature value: 5more
+INFO:root:					Label: acc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: maint
+INFO:root:			Information Gain for parent feature: 0.36344420661441035
+INFO:root:			Entropy for parent feature: 1.3150497046712681
+INFO:root:			Parent feature value: vhigh
+INFO:root:			Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.7586796572598717
+INFO:root:				Entropy for parent feature: 0.23409479672793648
+INFO:root:				Parent feature value: high
+INFO:root:				Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: doors
+INFO:root:				Information Gain for parent feature: 0.7586796572598717
+INFO:root:				Entropy for parent feature: 0.23409479672793648
+INFO:root:				Parent feature value: low
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.5032583347756457
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: 2
+INFO:root:					Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.5032583347756457
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: 3
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.5032583347756457
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: 4
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.5032583347756457
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: 5more
+INFO:root:					Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: doors
+INFO:root:				Information Gain for parent feature: 0.7586796572598717
+INFO:root:				Entropy for parent feature: 0.23409479672793648
+INFO:root:				Parent feature value: med
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: lug_boot
+INFO:root:					Information Gain for parent feature: 0.2576788051033316
+INFO:root:					Entropy for parent feature: 0.18181818181818182
+INFO:root:					Parent feature value: 2
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: med
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: small
+INFO:root:						Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.2576788051033316
+INFO:root:					Entropy for parent feature: 0.18181818181818182
+INFO:root:					Parent feature value: 3
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.2576788051033316
+INFO:root:					Entropy for parent feature: 0.18181818181818182
+INFO:root:					Parent feature value: 4
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.2576788051033316
+INFO:root:					Entropy for parent feature: 0.18181818181818182
+INFO:root:					Parent feature value: 5more
+INFO:root:					Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.7586796572598717
+INFO:root:				Entropy for parent feature: 0.23409479672793648
+INFO:root:				Parent feature value: vhigh
+INFO:root:				Label: unacc
+INFO:root:	Depth: 1
+INFO:root:	Feature selected: None
+INFO:root:	Information Gain for parent feature: 0.25557618418966466
+INFO:root:	Entropy for parent feature: 0.9298954998600739
+INFO:root:	Parent feature value: low
+INFO:root:	Label: unacc
+INFO:root:	Depth: 1
+INFO:root:	Feature selected: persons
+INFO:root:	Information Gain for parent feature: 0.25557618418966466
+INFO:root:	Entropy for parent feature: 0.9298954998600739
+INFO:root:	Parent feature value: med
+INFO:root:	Label: unacc
+INFO:root:		Depth: 2
+INFO:root:		Feature selected: None
+INFO:root:		Information Gain for parent feature: 0.3013142451210784
+INFO:root:		Entropy for parent feature: 0.9081768889964064
+INFO:root:		Parent feature value: 2
+INFO:root:		Label: unacc
+INFO:root:		Depth: 2
+INFO:root:		Feature selected: buying
+INFO:root:		Information Gain for parent feature: 0.3013142451210784
+INFO:root:		Entropy for parent feature: 0.9081768889964064
+INFO:root:		Parent feature value: 4
+INFO:root:		Label: unacc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: lug_boot
+INFO:root:			Information Gain for parent feature: 0.26134699240726
+INFO:root:			Entropy for parent feature: 1.1028161432289803
+INFO:root:			Parent feature value: high
+INFO:root:			Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: maint
+INFO:root:				Information Gain for parent feature: 0.38104112405122226
+INFO:root:				Entropy for parent feature: 0.5801954806716536
+INFO:root:				Parent feature value: big
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.7793498372920852
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: high
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.7793498372920852
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: low
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.7793498372920852
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.7793498372920852
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: vhigh
+INFO:root:					Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: doors
+INFO:root:				Information Gain for parent feature: 0.38104112405122226
+INFO:root:				Entropy for parent feature: 0.5801954806716536
+INFO:root:				Parent feature value: med
+INFO:root:				Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.7493221814795321
+INFO:root:					Entropy for parent feature: 0.21191442324334375
+INFO:root:					Parent feature value: 2
+INFO:root:					Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.7493221814795321
+INFO:root:					Entropy for parent feature: 0.21191442324334375
+INFO:root:					Parent feature value: 3
+INFO:root:					Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: maint
+INFO:root:					Information Gain for parent feature: 0.7493221814795321
+INFO:root:					Entropy for parent feature: 0.21191442324334375
+INFO:root:					Parent feature value: 4
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: high
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: low
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: vhigh
+INFO:root:						Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.7493221814795321
+INFO:root:					Entropy for parent feature: 0.21191442324334375
+INFO:root:					Parent feature value: 5more
+INFO:root:					Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.38104112405122226
+INFO:root:				Entropy for parent feature: 0.5801954806716536
+INFO:root:				Parent feature value: small
+INFO:root:				Label: unacc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: maint
+INFO:root:			Information Gain for parent feature: 0.26134699240726
+INFO:root:			Entropy for parent feature: 1.1028161432289803
+INFO:root:			Parent feature value: low
+INFO:root:			Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.6964717949733039
+INFO:root:				Entropy for parent feature: 0.6986515116082543
+INFO:root:				Parent feature value: high
+INFO:root:				Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.6964717949733039
+INFO:root:				Entropy for parent feature: 0.6986515116082543
+INFO:root:				Parent feature value: low
+INFO:root:				Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6849774484867257
+INFO:root:					Entropy for parent feature: 0.3060986113514965
+INFO:root:					Parent feature value: big
+INFO:root:					Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.6849774484867257
+INFO:root:					Entropy for parent feature: 0.3060986113514965
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6849774484867257
+INFO:root:					Entropy for parent feature: 0.3060986113514965
+INFO:root:					Parent feature value: small
+INFO:root:					Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.6964717949733039
+INFO:root:				Entropy for parent feature: 0.6986515116082543
+INFO:root:				Parent feature value: med
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6303938478405928
+INFO:root:					Entropy for parent feature: 0.36363636363636365
+INFO:root:					Parent feature value: big
+INFO:root:					Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.6303938478405928
+INFO:root:					Entropy for parent feature: 0.36363636363636365
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: good
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6303938478405928
+INFO:root:					Entropy for parent feature: 0.36363636363636365
+INFO:root:					Parent feature value: small
+INFO:root:					Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: doors
+INFO:root:				Information Gain for parent feature: 0.6964717949733039
+INFO:root:				Entropy for parent feature: 0.6986515116082543
+INFO:root:				Parent feature value: vhigh
+INFO:root:				Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.3166890883150208
+INFO:root:					Entropy for parent feature: 0.3333333333333333
+INFO:root:					Parent feature value: 2
+INFO:root:					Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.3166890883150208
+INFO:root:					Entropy for parent feature: 0.3333333333333333
+INFO:root:					Parent feature value: 3
+INFO:root:					Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: lug_boot
+INFO:root:					Information Gain for parent feature: 0.3166890883150208
+INFO:root:					Entropy for parent feature: 0.3333333333333333
+INFO:root:					Parent feature value: 4
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: med
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: small
+INFO:root:						Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.3166890883150208
+INFO:root:					Entropy for parent feature: 0.3333333333333333
+INFO:root:					Parent feature value: 5more
+INFO:root:					Label: unacc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: maint
+INFO:root:			Information Gain for parent feature: 0.26134699240726
+INFO:root:			Entropy for parent feature: 1.1028161432289803
+INFO:root:			Parent feature value: med
+INFO:root:			Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.6068660581590599
+INFO:root:				Entropy for parent feature: 0.7234076023207958
+INFO:root:				Parent feature value: high
+INFO:root:				Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6303938478405928
+INFO:root:					Entropy for parent feature: 0.36363636363636365
+INFO:root:					Parent feature value: big
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.6303938478405928
+INFO:root:					Entropy for parent feature: 0.36363636363636365
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6303938478405928
+INFO:root:					Entropy for parent feature: 0.36363636363636365
+INFO:root:					Parent feature value: small
+INFO:root:					Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.6068660581590599
+INFO:root:				Entropy for parent feature: 0.7234076023207958
+INFO:root:				Parent feature value: low
+INFO:root:				Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.7044340029249649
+INFO:root:					Entropy for parent feature: 0.25
+INFO:root:					Parent feature value: big
+INFO:root:					Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.7044340029249649
+INFO:root:					Entropy for parent feature: 0.25
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.7044340029249649
+INFO:root:					Entropy for parent feature: 0.25
+INFO:root:					Parent feature value: small
+INFO:root:					Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.6068660581590599
+INFO:root:				Entropy for parent feature: 0.7234076023207958
+INFO:root:				Parent feature value: med
+INFO:root:				Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.6068660581590599
+INFO:root:				Entropy for parent feature: 0.7234076023207958
+INFO:root:				Parent feature value: vhigh
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.5466316153937778
+INFO:root:					Entropy for parent feature: 0.4444444444444444
+INFO:root:					Parent feature value: big
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.5466316153937778
+INFO:root:					Entropy for parent feature: 0.4444444444444444
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.5466316153937778
+INFO:root:					Entropy for parent feature: 0.4444444444444444
+INFO:root:					Parent feature value: small
+INFO:root:					Label: unacc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: maint
+INFO:root:			Information Gain for parent feature: 0.26134699240726
+INFO:root:			Entropy for parent feature: 1.1028161432289803
+INFO:root:			Parent feature value: vhigh
+INFO:root:			Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.2934218686092331
+INFO:root:				Entropy for parent feature: 0.4984364839582505
+INFO:root:				Parent feature value: high
+INFO:root:				Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.2934218686092331
+INFO:root:				Entropy for parent feature: 0.4984364839582505
+INFO:root:				Parent feature value: low
+INFO:root:				Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6303938478405928
+INFO:root:					Entropy for parent feature: 0.36363636363636365
+INFO:root:					Parent feature value: big
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.6303938478405928
+INFO:root:					Entropy for parent feature: 0.36363636363636365
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6303938478405928
+INFO:root:					Entropy for parent feature: 0.36363636363636365
+INFO:root:					Parent feature value: small
+INFO:root:					Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: lug_boot
+INFO:root:				Information Gain for parent feature: 0.2934218686092331
+INFO:root:				Entropy for parent feature: 0.4984364839582505
+INFO:root:				Parent feature value: med
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6
+INFO:root:					Entropy for parent feature: 0.4
+INFO:root:					Parent feature value: big
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.6
+INFO:root:					Entropy for parent feature: 0.4
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.6
+INFO:root:					Entropy for parent feature: 0.4
+INFO:root:					Parent feature value: small
+INFO:root:					Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.2934218686092331
+INFO:root:				Entropy for parent feature: 0.4984364839582505
+INFO:root:				Parent feature value: vhigh
+INFO:root:				Label: unacc
+INFO:root:		Depth: 2
+INFO:root:		Feature selected: lug_boot
+INFO:root:		Information Gain for parent feature: 0.3013142451210784
+INFO:root:		Entropy for parent feature: 0.9081768889964064
+INFO:root:		Parent feature value: more
+INFO:root:		Label: acc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: maint
+INFO:root:			Information Gain for parent feature: 0.2436181150396446
+INFO:root:			Entropy for parent feature: 1.161072914226331
+INFO:root:			Parent feature value: big
+INFO:root:			Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: buying
+INFO:root:				Information Gain for parent feature: 0.424149587935433
+INFO:root:				Entropy for parent feature: 0.8376542618405624
+INFO:root:				Parent feature value: high
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.4689955935892812
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: high
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.4689955935892812
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: low
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.4689955935892812
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.4689955935892812
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: vhigh
+INFO:root:					Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: buying
+INFO:root:				Information Gain for parent feature: 0.424149587935433
+INFO:root:				Entropy for parent feature: 0.8376542618405624
+INFO:root:				Parent feature value: low
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.9957274520849255
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: high
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.9957274520849255
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: low
+INFO:root:					Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.9957274520849255
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: med
+INFO:root:					Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.9957274520849255
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: vhigh
+INFO:root:					Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: buying
+INFO:root:				Information Gain for parent feature: 0.424149587935433
+INFO:root:				Entropy for parent feature: 0.8376542618405624
+INFO:root:				Parent feature value: med
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.8112781244591328
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: high
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.8112781244591328
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: low
+INFO:root:					Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.8112781244591328
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.8112781244591328
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: vhigh
+INFO:root:					Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: buying
+INFO:root:				Information Gain for parent feature: 0.424149587935433
+INFO:root:				Entropy for parent feature: 0.8376542618405624
+INFO:root:				Parent feature value: vhigh
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 1.0
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: high
+INFO:root:					Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 1.0
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: low
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 1.0
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 1.0
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: vhigh
+INFO:root:					Label: unacc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: buying
+INFO:root:			Information Gain for parent feature: 0.2436181150396446
+INFO:root:			Entropy for parent feature: 1.161072914226331
+INFO:root:			Parent feature value: med
+INFO:root:			Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: maint
+INFO:root:				Information Gain for parent feature: 0.38299753020544536
+INFO:root:				Entropy for parent feature: 1.0566300061359115
+INFO:root:				Parent feature value: high
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.556656707462823
+INFO:root:					Entropy for parent feature: 0.42857142857142855
+INFO:root:					Parent feature value: high
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.556656707462823
+INFO:root:					Entropy for parent feature: 0.42857142857142855
+INFO:root:					Parent feature value: low
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.556656707462823
+INFO:root:					Entropy for parent feature: 0.42857142857142855
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.556656707462823
+INFO:root:					Entropy for parent feature: 0.42857142857142855
+INFO:root:					Parent feature value: vhigh
+INFO:root:					Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: maint
+INFO:root:				Information Gain for parent feature: 0.38299753020544536
+INFO:root:				Entropy for parent feature: 1.0566300061359115
+INFO:root:				Parent feature value: low
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 1.0
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: high
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 1.0
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: low
+INFO:root:					Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 1.0
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: med
+INFO:root:					Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 1.0
+INFO:root:					Entropy for parent feature: 0.0
+INFO:root:					Parent feature value: vhigh
+INFO:root:					Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: maint
+INFO:root:				Information Gain for parent feature: 0.38299753020544536
+INFO:root:				Entropy for parent feature: 1.0566300061359115
+INFO:root:				Parent feature value: med
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.8234665284277938
+INFO:root:					Entropy for parent feature: 0.46358749969093305
+INFO:root:					Parent feature value: high
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.8234665284277938
+INFO:root:					Entropy for parent feature: 0.46358749969093305
+INFO:root:					Parent feature value: low
+INFO:root:					Label: good
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.8234665284277938
+INFO:root:					Entropy for parent feature: 0.46358749969093305
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.8234665284277938
+INFO:root:					Entropy for parent feature: 0.46358749969093305
+INFO:root:					Parent feature value: vhigh
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.8112781244591328
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: acc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: maint
+INFO:root:				Information Gain for parent feature: 0.38299753020544536
+INFO:root:				Entropy for parent feature: 1.0566300061359115
+INFO:root:				Parent feature value: vhigh
+INFO:root:				Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.4591479170272448
+INFO:root:					Entropy for parent feature: 0.4591479170272448
+INFO:root:					Parent feature value: high
+INFO:root:					Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.4591479170272448
+INFO:root:					Entropy for parent feature: 0.4591479170272448
+INFO:root:					Parent feature value: low
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.4591479170272448
+INFO:root:					Entropy for parent feature: 0.4591479170272448
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.4591479170272448
+INFO:root:					Entropy for parent feature: 0.4591479170272448
+INFO:root:					Parent feature value: vhigh
+INFO:root:					Label: unacc
+INFO:root:			Depth: 3
+INFO:root:			Feature selected: buying
+INFO:root:			Information Gain for parent feature: 0.2436181150396446
+INFO:root:			Entropy for parent feature: 1.161072914226331
+INFO:root:			Parent feature value: small
+INFO:root:			Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.2781171009331592
+INFO:root:				Entropy for parent feature: 0.4772583116282695
+INFO:root:				Parent feature value: high
+INFO:root:				Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: maint
+INFO:root:				Information Gain for parent feature: 0.2781171009331592
+INFO:root:				Entropy for parent feature: 0.4772583116282695
+INFO:root:				Parent feature value: low
+INFO:root:				Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.5617677112802775
+INFO:root:					Entropy for parent feature: 0.43226250019667894
+INFO:root:					Parent feature value: high
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 1.0
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.5617677112802775
+INFO:root:					Entropy for parent feature: 0.43226250019667894
+INFO:root:					Parent feature value: low
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.5617677112802775
+INFO:root:					Entropy for parent feature: 0.43226250019667894
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.5617677112802775
+INFO:root:					Entropy for parent feature: 0.43226250019667894
+INFO:root:					Parent feature value: vhigh
+INFO:root:					Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: maint
+INFO:root:				Information Gain for parent feature: 0.2781171009331592
+INFO:root:				Entropy for parent feature: 0.4772583116282695
+INFO:root:				Parent feature value: med
+INFO:root:				Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.4591479170272448
+INFO:root:					Entropy for parent feature: 0.4591479170272448
+INFO:root:					Parent feature value: high
+INFO:root:					Label: unacc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.4591479170272448
+INFO:root:					Entropy for parent feature: 0.4591479170272448
+INFO:root:					Parent feature value: low
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 3
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: doors
+INFO:root:					Information Gain for parent feature: 0.4591479170272448
+INFO:root:					Entropy for parent feature: 0.4591479170272448
+INFO:root:					Parent feature value: med
+INFO:root:					Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 2
+INFO:root:						Label: unacc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 4
+INFO:root:						Label: acc
+INFO:root:						Depth: 6
+INFO:root:						Feature selected: None
+INFO:root:						Information Gain for parent feature: 0.9182958340544896
+INFO:root:						Entropy for parent feature: 0.0
+INFO:root:						Parent feature value: 5more
+INFO:root:						Label: acc
+INFO:root:					Depth: 5
+INFO:root:					Feature selected: None
+INFO:root:					Information Gain for parent feature: 0.4591479170272448
+INFO:root:					Entropy for parent feature: 0.4591479170272448
+INFO:root:					Parent feature value: vhigh
+INFO:root:					Label: unacc
+INFO:root:				Depth: 4
+INFO:root:				Feature selected: None
+INFO:root:				Information Gain for parent feature: 0.2781171009331592
+INFO:root:				Entropy for parent feature: 0.4772583116282695
+INFO:root:				Parent feature value: vhigh
+INFO:root:				Label: unacc
+INFO:root:	 Train set accuracy: 100.0%
+INFO:root:	 Test set accuracy: 92.4855%
+INFO:root:	 The root feature that is selected by algorithm : safety
+INFO:root:	 Information gain for the root feature: 0.25558
+INFO:root:	 The max-depth of the tree is : 6
