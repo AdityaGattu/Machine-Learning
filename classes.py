@@ -70,7 +70,8 @@ class DecisionTree:
         self.maxDepth = maxDepth
         self.longestPathLen = 0
                 
-    def _buildtree(self, X, Y, attrNames,attr_list, curDepth, parentInfo={"max_infogain": None, "attr_list[max_attr]": None,"val": None}):
+    def _buildtree(self, X, Y, attrNames,attr_list, curDepth, parentInfo=None):
+        parentInfo = {"max_infogain": None, "attr_list[max_attr]": None,"val": None} if parentInfo is None else parentInfo
         if curDepth > self.longestPathLen:
             self.longestPathLen = curDepth
         if curDepth >= self.maxDepth or len(attr_list) == 0 or len(np.unique(Y)) == 1:
@@ -107,7 +108,8 @@ class DecisionTree:
                 root.addChild(self._buildtree(X[inds],Y[inds], attrNames, new_attr_list, curDepth+1, parentInfo), val) #S_v (X[inds],Y[inds])
         return root
 
-    def buildtree(self, X, Y, attrNames, attr_list=[]):
+    def buildtree(self, X, Y, attrNames, attr_list=None):
+        attr_list = [] if attr_list is None else attr_list
         if len(attr_list) == 0:
             attr_list = np.arange(X.shape[1])
         self.root = self._buildtree(X, Y, attrNames, attr_list, 0)
